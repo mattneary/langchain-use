@@ -20,4 +20,4 @@ def assign_to(task):
         Assign to:
     '''.strip()
 
-print(assign_to.predict(task='Fold laundry'))
+print(assign_to.run(task='Fold laundry'))

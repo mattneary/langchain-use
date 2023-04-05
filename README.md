@@ -24,5 +24,5 @@ def assign_to(task):
         Assign to:
     '''.strip()
 
-print(assign_to.predict(task='Write a poem'))
+print(assign_to.run(task='Write a poem'))
 ```
