@@ -5,7 +5,7 @@ Decorators to make some limited langchain functionality more functional.
 ## Usage
 
 ```python
-from main import use_prompt, use_llm
+from langchain_use import use_prompt, use_llm
 from langchain import OpenAI
 
 @use_llm(OpenAI())
